@@ -1,0 +1,162 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:Arial, "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #014D5D url('background.png') repeat-x;
+	}
+*
+{
+  margin: 0 auto 0 27px;
+ text-align:left;
+}
+
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 938px;
+  left: 140px;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#CEEAEE;
+font-family:Arial, "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#CDE2FC;
+}
+
+.topNaviagationLink a:hover
+{
+text-align:center;
+color:#0C61C9;
+display: block;
+width:121px;
+height: 35px;
+line-height: 35px;
+background-image:url('tab.png');
+    border-bottom-style: none;
+    border-bottom-color: inherit;
+    border-bottom-width: medium;
+}
+
+#mainPicture
+{
+width:938px;
+height:158px;
+background-color:#FFFFFF;
+}
+
+
+#mainPicture .picture
+{
+position:relative;
+width:918px;
+height:138px;
+top:10px;
+background-image:url('Header1.jpg');
+background-repeat:no-repeat;
+margin-left:10px;
+}
+
+#headerTitle
+{
+position:relative;
+top:30px;
+left:5px;
+font-size:25px;
+color:dodgerblue;
+font-family:Arial, "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext
+{
+position:relative;
+top:30px;
+left:50px;
+font-size:16px;
+color:red;
+font-family:Arial, "Adobe Garamond Pro Bold", Georgia, Arial, 'AR CHRISTY', serif;
+}
+
+.contentBox
+{
+width:938px;
+height:auto;
+background-color:#FFFFFF;
+margin-top:10px;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+width:938px;
+height:auto;
+top:10px;
+margin-left:10px;
+background-image:url('content_back.png');
+background-repeat:repeat-x;
+padding-bottom:35px;
+}
+
+.contentTitle
+{
+font-size:19px;
+margin-bottom:0px;
+padding-top:18px;
+margin-left:15px;
+margin-top:15px;
+}
+
+.contentText
+{
+font-family:Arial;
+font-size:14px;
+line-height:24px;
+margin-left:53px;
+margin-right:13px;
+}
+
+#footer {
+
+width: 938px;
+height:16px;
+background: url('footer.png') no-repeat;
+text-align:center;
+font-size:9px;
+font-family:Arial, Helvetica, sans-serif;
+color:#386172;
+padding-top:5px;
+}
+
+#footer a
+{
+text-decoration:none;
+font-size:9px;
+color:#386172;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}

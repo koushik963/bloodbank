@@ -1,0 +1,144 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Home3.aspx.cs" Inherits="Home3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Share a little !! Care a little !!</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="WOW Slider, javascript slideshow, slideshow html" />
+    <meta name="description" content="WOWSlider created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow" />
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script Files  -->
+    <script src="js/myScript.js"></script>
+    <link href="css/myStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <center>
+	<div class="headbar"><br>
+<img src="kavya1.png">
+	</div><br>	
+	<div> 
+     <h1>Looking for Blood ?</h1><br>
+     <font color="#A00000" size="5">
+     States
+     <select>
+     	<option>Choose a state</option>
+     	<option>North Carolina</option>
+     	<option>Texas</option>
+     	<option>Kansas</option>
+     	<option>Ohio</option>
+     	<option>Florida</option>
+     </select>
+     Zipcode: <input type="text">
+      Blood type
+     <select>
+     	<option>Choose blood type</option>
+     	<option>A+</option>
+     	<option>A-</option>
+     	<option>B+</option>
+     	<option>B-</option>
+     	<option>AB+</option>
+     	<option>AB-</option>
+     	<option>O</option>
+     	<option>O-</option>
+    </select>
+ </font>
+	</div>
+	</center>
+    <br>
+    <br>
+    <!-- Start WOWSlider.com BODY section -->
+    <div id="wowslider-container1">
+        <div class="ws_images">
+            <ul>
+                <li>
+                    <img src="data1/images/xx.jpg" alt="" title="Donate Blood Save a Life" id="wows1_1" /></li>
+                <li>
+                    <img src="data1/images/cap_white_logo1.jpg" alt="Donate Blood Save a Life" title="Donate Blood Save a Life" id="wows1_0" /></li>
+
+                <li>
+                    <img src="data1/images/bloodbagnotext0001.jpg" alt="" title="Donate Blood Save a Life" id="wows1_2" /></li>
+            </ul>
+        </div>
+        <div class="ws_bullets">
+            <div>
+                <a href="#" title="Donate Blood Save a Life">
+                    <img src="data1/tooltips/cap_white_logo1.jpg" alt="cap_white_logo1" />1</a>
+                <a href="#" title="Donate Blood Save a Life">
+                    <img src="data1/tooltips/xx.jpg" alt="xx" />2</a>
+                <a href="#" title="Donate Blood Save a Life">
+                    <img src="data1/tooltips/bloodbagnotext0001.jpg" alt="bloodbagnotext-0001" />3</a>
+            </div>
+        </div>
+        <span class="wsl"><a href="http://wowslider.com"></a></span>
+        <div class="ws_shadow"></div>
+    </div>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="form span4 offset2">
+
+        <h1>Donors Form:</h1>
+        <br>
+        <br>
+        <label>First Name: </label>
+        <input type="text" id="nameInput" name="nameInput" required>
+        <br>
+        <br>
+        <label>Last Name: </label>
+        <input type="text" id="Text1" name="nameInput" required>
+        <br>
+        <br>
+        <label>Email id: </label>
+        <input type="text" id="dayInput" name="dayInput" required>
+        <br>
+        <br>
+        <label>Address: </label>
+        <textarea rows="4" cols="6"></textarea>
+        <br>
+        <br>
+        <label>Blood type: </label>
+        <select style="color: #A00000">
+            <option>Choose blood type</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O</option>
+            <option>O-</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-default formB" value="check" style="color: #A00000">Submit</button>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <img src="kavya.png" width="400px" height="400px">
+    <br>
+    <br>
+    <br>
+    .
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
